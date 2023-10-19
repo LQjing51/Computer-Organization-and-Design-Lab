@@ -1,0 +1,3 @@
+[submodule "flow/hardware/shell"]
+	path = flow/hardware/shell
+	url = ../../ucas-cod-2021-dev/nf_shell_for_cod.git

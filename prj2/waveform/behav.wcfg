@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ucas/prj2/flow/hardware/scripts/../vivado_out/sim/behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_cpu_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2425219200fs"></ZoomStartTime>
+      <ZoomEndTime time="3247065756fs"></ZoomEndTime>
+      <Cursor1Time time="3210000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="66"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject type="logic" fp_name="/mips_cpu_test/mips_cpu_clk">
+      <obj_property name="ElementShortName">mips_cpu_clk</obj_property>
+      <obj_property name="ObjectShortName">mips_cpu_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mips_cpu_test/mips_cpu_reset">
+      <obj_property name="ElementShortName">mips_cpu_reset</obj_property>
+      <obj_property name="ObjectShortName">mips_cpu_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/PC">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Instruction">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Jump_address0">
+      <obj_property name="ElementShortName">Jump_address0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Jump_address0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Jump_address1">
+      <obj_property name="ElementShortName">Jump_address1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Jump_address1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Jump_address2">
+      <obj_property name="ElementShortName">Jump_address2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Jump_address2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/reg_read_data1">
+      <obj_property name="ElementShortName">reg_read_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/reg_read_data2">
+      <obj_property name="ElementShortName">reg_read_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_read_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/RF_waddr">
+      <obj_property name="ElementShortName">RF_waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/RF_wdata">
+      <obj_property name="ElementShortName">RF_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Write_strb">
+      <obj_property name="ElementShortName">Write_strb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_strb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Write_data">
+      <obj_property name="ElementShortName">Write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Address">
+      <obj_property name="ElementShortName">Address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/alu_result">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/select_byte">
+      <obj_property name="ElementShortName">select_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">select_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/select_half">
+      <obj_property name="ElementShortName">select_half[15:0]</obj_property>
+      <obj_property name="ObjectShortName">select_half[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/Read_data">
+      <obj_property name="ElementShortName">Read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/modified_read_data">
+      <obj_property name="ElementShortName">modified_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">modified_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/rs">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/rt">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mips_cpu_test/u_mips_cpu/u_mips_cpu/rd">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+</wave_config>
